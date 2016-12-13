@@ -5,8 +5,9 @@ RUN apt-get update -y \
   && apt-get autoremove -y \
   && apt-get install \
         python-pip \
-        python-dev \
+        python2.7-dev \
         build-essential \
+        libpq-dev \
         vim \
         -y \
   && pip install --upgrade pip
