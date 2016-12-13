@@ -8,6 +8,7 @@ RUN apt-get update -y \
         python2.7-dev \
         build-essential \
         libpq-dev \
+        zlib1g-dev \
         vim \
         -y \
   && pip install --upgrade pip
